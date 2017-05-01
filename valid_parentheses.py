@@ -14,8 +14,7 @@ class Solution(object):
                     return False
         
 		return len(stack) == 0
-			
-			
+	
     def isValid1(self, s):
         """
         Extension: only ( and ) with constant extra space.
