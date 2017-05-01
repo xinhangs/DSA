@@ -19,10 +19,7 @@ class Solution(object):
     def isValid1(self, s):
         """
         Extension: only ( and ) with constant extra space.
-<<<<<<< HEAD
 		Test case: ['', '(', ')', '())', '(()', '(()))', '((())', '())(()']
-=======
->>>>>>> origin/master
         """
 		counter = 0
         for char in s:
@@ -34,11 +31,3 @@ class Solution(object):
 				counter -= 1
 				
 		return counter == 0
-<<<<<<< HEAD
-		
-=======
-			
-	def test_isValid1():
-		for s in ['', '(', ')', '())', '(()', '(()))', '((())', '())(()']:
-			print(s, isValid1(s))
->>>>>>> origin/master
