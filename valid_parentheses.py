@@ -18,7 +18,7 @@ class Solution(object):
 			
     def isValid1(self, s):
         """
-        extension: only ( and ) with constant extra space.
+        Extension: only ( and ) with constant extra space.
         """
 		counter = 0
         for char in s:
